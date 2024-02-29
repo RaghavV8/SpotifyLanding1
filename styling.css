@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 150vh;
+    background: linear-gradient(rgba(41, 41, 41, 0.97), black);
+    box-sizing: border-box;
+}
+.container{
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.top{
+    padding-bottom: 1.29%;
+    background-color: rgb(18,18,18);
+}
+.mn{
+    margin-bottom:32px;
+}
+.logo{
+    margin-top: 27px;
+    margin-left: 42px;
+    width: 8.7%;
+}
+.box{
+    background-color: rgb(18,18,18);
+    border: 2px solid rgb(18,18,18);
+    border-radius: 7px;
+    height: 913px;
+    width: 731px;
+    padding-top:25px;
+    padding-bottom:0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2.16%;
+}
+.heading{
+    font-style:bolder;
+    font-size: 2.7rem;
+    font-weight:600;
+    margin: 42px 0px; 
+}
+button{
+    display:block;
+    margin-bottom: px;
+}
+.but{
+    margin-left:auto;
+    margin-right:auto;
+    font-weight:700;
+    color: rgb(133, 131, 131);
+    background-color: rgb(18,18,18);
+    border: 1px solid rgb(133, 131, 131);
+    border-radius: 28px;
+    margin-bottom: 8.1px;
+    width: 44%;
+}
+hr{
+    width:530px;
+    border-color:rgba(41, 41, 41, 0.242);
+}
+input[type=text]{
+    margin-top: 6px;
+    background-color: rgb(18,18,18);
+    color:rgba(255, 255, 255, 0.9);
+    border: 1px  solid rgba(133, 131, 131, 0.688);
+    border-radius:4px;
+    padding-left:14px;
+    padding-right:14px;
+    padding-bottom:21px;
+    padding-top:23px;
+    width:325px;
+    height:40px;
+    margin-bottom:18px;
+    transition:0.5;
+}
+input::placeholder{
+    font-size: 1rem;
+    font-weight: 550;
+}
+input:hover{
+    border-color: white;
+}
+input[type=checkbox]::before{
+    
+    background-color: rgb(133, 131, 131);
+}
+input[type=checkbox]:checked:active
+{   accent-color:#1FDF64;
+}
+a{
+    color: white;
+}
+.bot{
+    height: 70px;
+    background-color: rgb(18,18,18);
+    color: rgb(190,190,190);
+}
